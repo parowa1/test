@@ -1,0 +1,9 @@
+if all is setup correctly :
+
+ssh ubuntu@192.168.0.1
+
+or I can force ssh to use my extra private key 
+
+ssh -o "IdentitiesOnly=yes" -i ~/.ssh/private 192.168.0.1
+
+
